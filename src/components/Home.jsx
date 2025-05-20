@@ -53,7 +53,7 @@ const Home = () => {
                         <p>Your ultimate destination for downloading high-quality HD photos for free. Explore a vast library of professionally curated images across categories like nature, travel, business, abstract, technology, and more. Each photo is available in full resolution with no watermarks, making them perfect for personal projects, blogs, websites, and commercial use. With fast downloads, easy navigation, and fresh content added regularly, finding the perfect HD picture has never been easier. Start downloading stunning, high-resolution images today—absolutely free! </p>
                     </div>
                     <div className='mt-12 text-white text-lg'>
-                        <a href="https://hd-photos.vercel.app/" _blank className='px-6 py-3 me-10 rounded-full bg-[#5d3e58] hover:bg-[#51324b] transition'>Viste</a>
+                        <a href="https://hd-photos.vercel.app/" target='_blank' className='px-6 py-3 me-10 rounded-full bg-[#5d3e58] hover:bg-[#51324b] transition'>Viste</a>
                         <a href="" className='px-6 py-3  rounded-full border-2 text-[#5d3e58] border-[#5d3e58] hover:bg-[#5d3e58] hover:text-white transition'>Download Apk</a>
                     </div>
                 </div>

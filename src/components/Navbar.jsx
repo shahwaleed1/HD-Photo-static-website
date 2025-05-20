@@ -14,8 +14,8 @@ const Navbar = () => {
                     <a href="" className='mx-2'>About</a>
                     <a href="" className='mx-2'>Blog</a>
                     <a href="" className='mx-2'>Contect us</a>
-                    <button className='rounded-full border p-1'>mode</button>
-                    <a className='ms-6 border px-4 py-3 rounded-full' href="">Download</a>
+                    <button className='rounded-full border p-1 mx-4'>mode</button>
+
                 </div>
             </nav>
         </>

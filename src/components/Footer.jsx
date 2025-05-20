@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaGithub } from "react-icons/fa";
+
 
 const Footer = () => {
     return (
@@ -7,7 +9,7 @@ const Footer = () => {
                 <div className='flex items-center flex-col gap-y-2'>
                     <img className='w-[4rem] rounded-full' src="footer_admin_pic.png" alt="developer pic" />
                     <h5>Waleed Shah | Frontend Developer</h5>
-                    <button className='py-1 px-3 bg-slate-600 rounded-full' href="#">follow</button>
+                    <a className='py-1 px-3 bg-slate-600 rounded-full' href='https://github.com/shahwaleed1' target='_blank'><FaGithub className='inline mb-1' /> follow</a>
                 </div>
                 <div className='text-center'>
                     <p>Copyright-2025 @ All rights reserved.</p>
