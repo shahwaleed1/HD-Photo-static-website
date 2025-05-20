@@ -1,0 +1,31 @@
+/* Custom Container CSS */
+
+.custom-container {
+  width: 100%;
+  max-width: 1300px;  /* You can adjust this value as needed */
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+/* Responsive max-widths for different devices */
+@media (max-width: 1200px) {
+  .custom-container {
+    max-width: 992px;
+  }
+}
+
+@media (max-width: 992px) {
+  .custom-container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
